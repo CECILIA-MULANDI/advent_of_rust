@@ -1,4 +1,4 @@
-### Day 8: Blitzen's Debug Blitz
+\*\*Day 8: Blitzen's Debug Blitz \*\*
 
 The North Pole’s DevOps room was unusually quiet—well, as quiet as it could be with Blitzen strutting around like he owned the place. The reindeer had declared himself Tech Lead™ (again), and with Santa still off on his "vision quest", nobody had dared challenge him. Every five minutes, Blitzen would casually remind the room, "I’m the Tech Lead, in case anyone forgot."
 
