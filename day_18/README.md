@@ -1,4 +1,5 @@
-Day 18: Sleigh builder pattern
+### Day 18: Sleigh builder pattern
+
 The elves were huddled at a desk, deep in debate over their Neovim setups.
 
 “I finally nailed my init.lua,” said Sparky. “Switched to bspwm, too. Total game-changer.”
@@ -14,7 +15,9 @@ The elves froze as Santa tossed a crumpled piece of code onto the table. “The 
 Sparky glanced at the code and gulped. “This… uh… looks like something from that old project nobody touched.”
 
 “Exactly!” Santa growled. “And now it’s ruining everything. We’re rewriting this in Rust. Get to work, before I replace you all with AI!”
-Your Mission
+
+### Your Mission
+
 To help Santa build his new sleigh easily, we need to create him a SleighBuilder that can build and return Sleigh instances.
 
 The SleighBuilder should have:
