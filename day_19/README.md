@@ -24,3 +24,16 @@ Here's what you need to do:
 
     Finish the Sleigh struct to represent the state of the sleigh.
     The Sleigh struct must have 3 states Empty, Ready and Flying.
+
+### Methods
+
+There are a few methods we want to define for each state:
+
+    # Empty State
+        new() an associated function that creates a new Sleigh in the Empty state.
+        load() a method that transitions the Sleigh from Empty to Ready.
+    # Ready State
+        take_off() a method that transitions the Sleigh from Ready to Flying.
+        unload() a method that transitions the Sleigh from Ready to Empty.
+    #Flying State
+        land() a method that transitions the Sleigh from Flying to Ready.
