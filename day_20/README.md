@@ -20,9 +20,9 @@ Here's the plan:
 
 1.  Define the status() method: It should be callable on the Sleigh regardless of its state.
 2.  Return a string indicating the sleigh’s state:
-    -"Empty" when the sleigh is empty.
-    -"Ready" when the sleigh is loaded and ready to fly.
-    -"Flying" when the sleigh is in the air.
+    \*"Empty" when the sleigh is empty.
+    \*"Ready" when the sleigh is loaded and ready to fly.
+    \*"Flying" when the sleigh is in the air.
 3.  The Sleigh struct should have a trait bound, not just a generic <T>.
     Here's how Santa wants to the the API:
 
