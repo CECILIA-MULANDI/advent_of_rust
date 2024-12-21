@@ -14,7 +14,7 @@ pub struct SleighBuilder {
 
 impl SleighBuilder {
     pub fn new() -> Self {
-        Self {
+        SleighBuilder {
             sleigh: Sleigh {
                 color: "red".to_string(),
                 engine: "reindeer-powered".to_string(),
@@ -23,27 +23,22 @@ impl SleighBuilder {
             },
         }
     }
-
     pub fn color(mut self, color: &str) -> Self {
         self.sleigh.color = color.to_string();
         self
     }
-
     pub fn engine(mut self, engine: &str) -> Self {
         self.sleigh.engine = engine.to_string();
         self
     }
-
     pub fn gift_capacity(mut self, capacity: u32) -> Self {
         self.sleigh.gift_capacity = capacity;
         self
     }
-
     pub fn magical_enhancements(mut self) -> Self {
         self.sleigh.magical_enhancements = true;
         self
     }
-
     pub fn build(self) -> Sleigh {
         self.sleigh
     }
