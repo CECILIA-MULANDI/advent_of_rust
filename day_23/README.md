@@ -19,3 +19,23 @@ Santa pinched the bridge of his nose. "Rewriting it in Rust is our only hope. No
 "But Santa," Bernard hesitated, "starting from scratch this late… it’s risky."
 
 Santa leaned forward, eyes blazing. "Riskier than trusting JavaScript on Christmas Eve? I don’t care how late it is. Write it in Rust."
+
+### Your Mission
+
+Implement a SantaList struct that uses a HashMap to store children’s names as keys and their behaviors (true for nice, false for naughty) as values.
+
+Fields
+The SantaList struct should have a single field:
+
+records - a HashMap<String, bool> to store children’s names and behaviors.
+
+### Methods
+
+The struct should have the following methods and associated functions:
+
+    new - Create a new SantaList instance.
+    add - Add a child's name and behavior to the list.
+    remove - Remove a child from the list.
+    get - Retrieve a child's behavior.
+    count - Count the number of nice and naughty children as a tuple (nice, naughty)
+    list_by_behavior - Retrieve a list of children based on their behavior as Vec<String>
